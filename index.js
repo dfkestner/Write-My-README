@@ -50,6 +50,16 @@ const questions = [
         type: "input",
         name: "testing",
         message: "Please provide instructions or examples for users who would like to run tests on your project"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?"
+    },
+    {
+        type: "input",
+        name: "ghUserName",
+        message: "What is your GitHub username?"
     }
 
 ];
