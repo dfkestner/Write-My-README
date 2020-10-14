@@ -13,7 +13,6 @@ function writeToFile(fileName, data) {
 }
 
 // array of questions for user
-// ask about collaborator name/GH username prompt options
 function init() {inquirer.prompt([
     {
         type: "input",
