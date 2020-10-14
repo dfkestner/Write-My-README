@@ -1,6 +1,20 @@
+const fs = require("fs");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown")
+
+// function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function(err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Writing your README...")
+    })
+}
+
 // array of questions for user
 // ask about collaborator name/GH username prompt options
-const questions = [
+function init() {inquirer.prompt([
     {
         type: "input",
         name: "title",
@@ -61,17 +75,13 @@ const questions = [
         name: "ghUserName",
         message: "What is your GitHub username?"
     }
+]).then(function(response) {
+    const inqAnswers = generateMarkdown({...response});
 
-];
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
+    // call writeToFile function with "README.md" and inqAnswers as arguments
+    writeToFile("README.md", inqAnswers);
+});
+};
 
 // function call to initialize program
 init();
