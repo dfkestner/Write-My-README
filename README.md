@@ -6,6 +6,8 @@
 
   Write My README allows users to generate a README.md file quickly and easily through NodeJS.
   
+  ![Sample README](https://github.com/dfkestner/Write-My-README/blob/main/Sample%20README.png)
+  
   ## Links
   
   - [Instructional Video](https://drive.google.com/file/d/1yJL_modb-yiuuLSdFP3csFH3cvCQsfc7/view)
