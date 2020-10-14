@@ -1,6 +1,6 @@
 # Write My README
 
-  ![License](https://img.shields.io/badge/License-MIT-lightblue.svg)
+  ![License](https://img.shields.io/badge/License-The%20Unlicense-lightblue.svg)
 
   ## Description
 
@@ -45,7 +45,7 @@
 
   ## License
 
-  MIT
+  The Unlicense
 
   ## Contributing
 
