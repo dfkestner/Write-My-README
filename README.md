@@ -1,8 +1,10 @@
-# thisname
+# Write My README
+
+  ![License](https://img.shields.io/badge/License-The_Unlicense-lightblue.svg)
 
   ## Description
 
-  description
+  Write My README allows users to generate a README.md file quickly and easily through NodeJS.
 
   ## Table of Contents
 
@@ -22,36 +24,32 @@
 
   ## Installation
 
-  these steps
+  Use the command "npm install" or "npm i" to install dependencies.
 
   ## Usage
 
-  some instructions
+  Once all dependencies are installed, use "node index.js" to begin the prompts. Once all answers have been entered, fully formatted README content will be generated into a new or existing README.md file.
 
   ## Credits
 
-  Collaborators
-
-  firstname lastname, firstname2 lastname2, username, username2
-
-  Other
-
-  n/a
+  - [Brooklynne Audette](https://github.com/B-Audette)
+  - [Amanda Anderson](https://github.com/aanderson120)
+  - [Lindsey Bordner](https://github.com/LindseyM20)
 
   ## License
 
-  None
+  The Unlicense
 
   ## Contributing
 
-  be kind, rewind
+  [The Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md)
 
   ## Tests
 
-  use a no. 2 pencil
+  N/A
 
   ## Questions
 
-  Feel free to email me at email@email.com with any questions about the repository. Visit my GitHub profile, [username](https://github.com/username/), to see more of my work!
+  Feel free to email me at dfkestner@gmail.com with any questions about the repository. Visit my GitHub profile, [dfkestner](https://github.com/dfkestner/), to see more of my work!
   
   

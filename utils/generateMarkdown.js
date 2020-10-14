@@ -1,14 +1,8 @@
-// function to generate collaborators & usernames
-// function renderCollaborators(collaborators1, collaborators2)
-//     for(i = 0; i < data.collaborators1.length; i++) {
-//         var collaborators1 = data.collaborators1[i];
-//         var collaborators2 = data.collaborators2[i];
-//         return `![collaborators1](collaborators2)` ;
-//     }
-
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+  ![License](https://img.shields.io/badge/License-${data.license}-lightblue.svg)
 
   ## Description
 
@@ -39,12 +33,6 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Credits
-
-  Collaborators
-
-  ${data.collaborators1}, ${data.collaborators2}
-
-  Other
 
   ${data.credits}
 

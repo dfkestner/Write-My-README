@@ -36,18 +36,8 @@ function init() {inquirer.prompt([
     },
     {
         type: "input",
-        name: "collaborators1",
-        message: "Please list the first and last names of any individuals who collaborated on this project (add a comma after each person's name)"
-    },
-    {
-        type: "input",
-        name: "collaborators2",
-        message: "Please list the GitHub usernames of any individuals who collaborated on this project (add a comma after each username)"
-    },
-    {
-        type: "input",
         name: "credits",
-        message: "Please list any tutorials or third party assets used to create this project"
+        message: "Please list any individuals or third parties you would like to credit in your README"
     },
     {
         type: "list",
