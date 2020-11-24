@@ -42,7 +42,7 @@ function init() {inquirer.prompt([
         type: "list",
         name: "license",
         message: "What kind of license would you like to use for your project?",
-        choices: ["None", "Apache 2.0", "GNU General Public v3.0", "MIT", "BSD 2-Clause 'Simplified'", "BSD 3-Clause 'New' or 'Revised'", "Boost Software 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public 2.0", "GNU Affero General Public v3.0", "GNU General Public v2.0", "GNU Lesser General Public v2.1", "Mozilla Public 2.0", "The Unlicense"]
+        choices: ["None", "Apache", "GNU", "MIT", "BSD2", "BSD3", "Boost", "Eclipse", "GNU3", "GNU2", "GNU-2.1", "Mozilla", "Unlicense"]
     },
     {
         type: "input",
